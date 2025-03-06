@@ -26,3 +26,9 @@ cpu_stab_converted = gpu_to_cpu_stabilizer(gpu_stab)
 
 println("Canonicalized Stabilizer:")
 println(cpu_stab_converted)
+
+🛠 Dependencies
+CUDA.jl: For GPU acceleration.
+QuantumClifford.jl: For quantum stabilizer operations.
+BenchmarkTools.jl: For benchmarking performance.
+LinearAlgebra.jl: For matrix operations.
