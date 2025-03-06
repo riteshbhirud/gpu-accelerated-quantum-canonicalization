@@ -1,5 +1,7 @@
 This project provides an efficient GPU-accelerated implementation of quantum stabilizer tableau canonicalization using CUDA and Julia. The implementation leverages custom CUDA kernels to accelerate key operations, such as column swapping, phase computation, and matrix updates, providing significant speedups over CPU-based approaches. Benchmarking results show a 12x faster processing time.
 
+This wil also be a part of QuantumCliffod Library
+
  Key Features
 CUDA Accelerated: Utilizes CUDA to offload computations to the GPU, significantly improving performance for large stabilizer tableau operations.
 Custom Kernels: Implements custom CUDA kernels for:
